@@ -6,14 +6,26 @@ package others;
  */
 public class FibonacciSeries {
     public static void main(String[] args) {
-        System.out.println("Fibonacci Series " + fibonacciUsingRecursion(7));
-        System.out.println("Fibonacci Series using Loop " + fibonacciUsingLoop(7));
+        int n = 7;
+        System.out.println("Fibonacci Series " + fibonacciUsingRecursion(n));
+        System.out.println("Fibonacci Series using Loop " + fibonacciUsingLoop(n));
+        int[] m = new int[n + 1];
+        System.out.println("Fibonacci Series using Memoization " + fibonacciUsingMemoization(n, m));
     }
 
     private static int fibonacciUsingRecursion(int n) {
         if (n <= 1)
             return n;
         return fibonacciUsingRecursion(n - 2) + fibonacciUsingRecursion(n - 1);
+    }
+
+
+    private static int fibonacciUsingMemoization(int n, int[] m) {
+        if (n <= 1) {
+            m[n] = n;
+        } else if (m[n] == 0)
+            m[n] = fibonacciUsingRecursion(n - 2) + fibonacciUsingRecursion(n - 1);
+        return m[n];
     }
 
     private static int fibonacciUsingLoop(int n) {
