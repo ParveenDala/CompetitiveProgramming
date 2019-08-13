@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="294">
+              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/ReverseArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/array/MergeArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -64,6 +80,8 @@
         <option value="$PROJECT_DIR$/src/others/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/recursion/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/array/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/array/ReverseArray.java" />
+        <option value="$PROJECT_DIR$/src/array/MergeArrays.java" />
       </list>
     </option>
   </component>
@@ -99,6 +117,12 @@
               <item name="CompetitiveProgramming" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompetitiveProgramming" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompetitiveProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompetitiveProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hackerearth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -112,6 +136,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
       <recent name="others" />
     </key>
   </component>
@@ -127,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.MergeArrays">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.BinarySearch" />
       <module name="CompetitiveProgramming" />
@@ -154,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.PowerOfNumber" />
+    <configuration name="MergeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MergeArrays" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaylorSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.TaylorSeries" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ReverseArray" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +219,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PowerOfNumber" />
-      <item itemvalue="Application.TaylorSeries" />
       <item itemvalue="Application.FibonacciSeries" />
       <item itemvalue="Application.TowerOfHanoi" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.ReverseArray" />
+      <item itemvalue="Application.MergeArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeArrays" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.TaylorSeries" />
-        <item itemvalue="Application.PowerOfNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565718139174</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Binary search using recursion and loop">
+      <created>1565726540829</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565726540829</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +366,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -359,7 +391,8 @@
     <MESSAGE value="Fibonacci Series using Memoization" />
     <MESSAGE value="Tower of hanoi" />
     <MESSAGE value="Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion" />
+    <MESSAGE value="Binary search using recursion and loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search using recursion and loop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -483,8 +516,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="294">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ReverseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" selection-start-line="22" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/MergeArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
