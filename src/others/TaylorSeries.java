@@ -6,8 +6,8 @@ package others;
  */
 public class TaylorSeries {
     public static void main(String[] args) {
-        System.out.println("Taylor Series: " + taylorSeries(4, 10));
-        System.out.println("Taylor Series 2 : " + taylorSeries2(4, 10));
+        System.out.println("Taylor Series: " + taylorSeries(2, 10));
+        System.out.println("Taylor Series 2 : " + taylorSeries2(2, 10));
     }
 
     private static int taylorSeries(int x, int n) {

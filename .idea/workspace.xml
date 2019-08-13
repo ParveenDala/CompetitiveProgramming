@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="Factorial of number">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/others/TaylorSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/others/TaylorSeries.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,67 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/others/AdditionWithoutPlusOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/others/FindPairWithSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/others/SumOfnNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/others/FactorialOfNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/others/PowerOfNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
+        <entry file="file://$PROJECT_DIR$/src/others/FibonacciSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+            <state relative-caret-position="210">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -116,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/others/FactorialOfNumber.java" />
         <option value="$PROJECT_DIR$/src/others/PowerOfNumber.java" />
         <option value="$PROJECT_DIR$/src/others/TaylorSeries.java" />
+        <option value="$PROJECT_DIR$/src/others/FibonacciSeries.java" />
       </list>
     </option>
   </component>
@@ -185,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TaylorSeries">
+  <component name="RunManager" selected="Application.FibonacciSeries">
     <configuration name="FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.FactorialOfNumber" />
       <module name="CompetitiveProgramming" />
@@ -199,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPairWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="others.FindPairWithSum" />
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="others.FibonacciSeries" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
@@ -252,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindPairWithSum" />
       <item itemvalue="Application.SumOfnNumbers" />
       <item itemvalue="Application.FactorialOfNumber" />
       <item itemvalue="Application.PowerOfNumber" />
       <item itemvalue="Application.TaylorSeries" />
+      <item itemvalue="Application.FibonacciSeries" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.TaylorSeries" />
         <item itemvalue="Application.PowerOfNumber" />
         <item itemvalue="Application.FactorialOfNumber" />
         <item itemvalue="Application.SumOfnNumbers" />
-        <item itemvalue="Application.FindPairWithSum" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565704705368</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Taylor series">
+      <created>1565706340805</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565706340805</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +303,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30588236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30588236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +329,8 @@
     <MESSAGE value="Sum of n numbers" />
     <MESSAGE value="Factorial of number" />
     <MESSAGE value="Power of number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Power of number" />
+    <MESSAGE value="Taylor series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Taylor series" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -461,10 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/others/FactorialOfNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="189">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -479,10 +432,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
+    <entry file="file://$PROJECT_DIR$/src/others/FactorialOfNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        <state relative-caret-position="315">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/others/FibonacciSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
