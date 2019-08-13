@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="Add two numbers without '+' operator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerearth/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveProgramming/hackerearth/PrimeNumber.class" afterDir="false" />
-    </list>
+    <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +48,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/others/FactorialOfNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="315">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/others/PowerOfNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/others/SumOfnNumbers.java" />
         <option value="$PROJECT_DIR$/src/others/FactorialNumbers.java" />
         <option value="$PROJECT_DIR$/src/others/FactorialOfNumber.java" />
+        <option value="$PROJECT_DIR$/src/others/PowerOfNumber.java" />
       </list>
     </option>
   </component>
@@ -162,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactorialOfNumber">
+  <component name="RunManager" selected="Application.PowerOfNumber">
     <configuration name="FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.FactorialOfNumber" />
       <module name="CompetitiveProgramming" />
@@ -196,8 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNNodesOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="others.ReverseNNodesOfLinkedList" />
+    <configuration name="PowerOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="others.PowerOfNumber" />
       <module name="CompetitiveProgramming" />
       <extension name="coverage">
         <pattern>
@@ -224,18 +235,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.IntersectionBetweenArrays" />
-      <item itemvalue="Application.ReverseNNodesOfLinkedList" />
       <item itemvalue="Application.FindPairWithSum" />
       <item itemvalue="Application.SumOfnNumbers" />
       <item itemvalue="Application.FactorialOfNumber" />
+      <item itemvalue="Application.PowerOfNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfNumber" />
         <item itemvalue="Application.FactorialOfNumber" />
         <item itemvalue="Application.SumOfnNumbers" />
         <item itemvalue="Application.FindPairWithSum" />
         <item itemvalue="Application.IntersectionBetweenArrays" />
-        <item itemvalue="Application.ReverseNNodesOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565703778670</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Factorial of number">
+      <created>1565704085686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565704085686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,7 +319,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30588236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30588236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,7 +343,8 @@
     <MESSAGE value="Reverse N Nodes Of Linked List" />
     <MESSAGE value="Find pair with sum" />
     <MESSAGE value="Sum of n numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum of n numbers" />
+    <MESSAGE value="Factorial of number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factorial of number" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -411,8 +430,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/others/FactorialOfNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/others/PowerOfNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
