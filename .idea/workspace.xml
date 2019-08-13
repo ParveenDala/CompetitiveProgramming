@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="232d6143-e034-4cbc-ac19-622f24bd59fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/others/TaylorSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/others/TaylorSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +17,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/others/FibonacciSeries.java">
+        <entry file="file://$PROJECT_DIR$/src/others/TowerOfHanoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -61,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/others/PowerOfNumber.java" />
         <option value="$PROJECT_DIR$/src/others/TaylorSeries.java" />
         <option value="$PROJECT_DIR$/src/others/FibonacciSeries.java" />
+        <option value="$PROJECT_DIR$/src/others/TowerOfHanoi.java" />
       </list>
     </option>
   </component>
@@ -130,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeries">
+  <component name="RunManager" selected="Application.TowerOfHanoi">
     <configuration name="FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.FactorialOfNumber" />
       <module name="CompetitiveProgramming" />
@@ -170,19 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfnNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="others.SumOfnNumbers" />
-      <module name="CompetitiveProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaylorSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="others.TaylorSeries" />
       <module name="CompetitiveProgramming" />
@@ -196,20 +197,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="others.TowerOfHanoi" />
+      <module name="CompetitiveProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SumOfnNumbers" />
       <item itemvalue="Application.FactorialOfNumber" />
       <item itemvalue="Application.PowerOfNumber" />
       <item itemvalue="Application.TaylorSeries" />
       <item itemvalue="Application.FibonacciSeries" />
+      <item itemvalue="Application.TowerOfHanoi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.TaylorSeries" />
         <item itemvalue="Application.PowerOfNumber" />
         <item itemvalue="Application.FactorialOfNumber" />
-        <item itemvalue="Application.SumOfnNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565706340805</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fibonacci series">
+      <created>1565707682611</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565707682611</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fibonacci Series using Memoization">
+      <created>1565708560057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565708560057</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -303,14 +331,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30588236" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43361345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -330,7 +358,9 @@
     <MESSAGE value="Factorial of number" />
     <MESSAGE value="Power of number" />
     <MESSAGE value="Taylor series" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taylor series" />
+    <MESSAGE value="Fibonacci series" />
+    <MESSAGE value="Fibonacci Series using Memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci Series using Memoization" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -414,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/others/PowerOfNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -439,10 +462,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/others/FibonacciSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/others/TaylorSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/others/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
