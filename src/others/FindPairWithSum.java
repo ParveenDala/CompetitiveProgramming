@@ -1,14 +1,18 @@
 package others;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /******
  * Parveen D
  * Find pair with sum.
  */
 public class FindPairWithSum {
     public static void main(String... args) {
-        int[] arr = {2, 2, 3, 4, 5, 6};
+        int[] arr = {6, 2, 9, 4, 5, 6};
         int target = 11;
-        findPair(arr, target);
+        //findPair(arr, target);
+        findPairWithUnsorted(arr, target);
     }
 
     private static void findPair(int[] arr, int target) {
@@ -23,6 +27,20 @@ public class FindPairWithSum {
                 i++;
             else {
                 j--;
+            }
+        }
+        System.out.println("Not Found");
+    }
+
+
+    private static void findPairWithUnsorted(int[] arr, int target) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(num)) {
+                System.out.println(num + " + " + (target - num) + " = " + target);
+                return;
+            } else {
+                set.add(target - num);
             }
         }
         System.out.println("Not Found");
